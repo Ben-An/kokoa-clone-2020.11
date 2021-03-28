@@ -5,27 +5,29 @@
 
 
 .status-bar__column{
-    width: 33%
+    width: 100%
 }
 
-.status-bar__column:first-child span{
-    margin-right: 5px;
+
+
+
+.status-bar__column:first-child{
+    margin-right: auto;
 }
 
 .status-bar__column:nth-child(2) {
-    display:flex;
-    justify-content: center;
+
+    text-align: center;
 }
 
 
-.stauts-bar__column:last-child{
+.status-bar__column:last-child{
     display: flex;
-    justify-content:flex-end;
-} 
+    justify-content: flex-end;
+}
 
-   
-       
 
-.status-bar__column .fa-battery-full{
-    margin: 0px 5px;
+
+.status-bar__column .fa-battery-full {
+    margin: 0 5px;
 }
